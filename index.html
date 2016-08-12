@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snake</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="tooltipster-master/dist/css/tooltipster.bundle.css" />
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="tooltipster-master/dist/js/tooltipster.bundle.min.js"></script>
+    <script src="segment-gh-pages/dist/segment.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="snake">
+        <div id="path">
+            <svg id="snake_svg">
+                <path id="my-path" d="M50 50 L700 50 A 15 15 0 0 1 700 250 L 250 250" stroke="#00547f" stroke-width="17" fill="none" />
+            </svg>
+            <img id="img1" class="img_boy" src="images/boy_on_books.png">
+            <img id="img2" class="img_boy" src="images/boy_class.png">
+        </div>
+        <div id="points">
+            <div class="tooltip point" id="point1" title="Решись!"></div>
+            <div class="tooltip point" id="point2" title="Сделай это!"></div>
+            <div class="tooltip point" id="point3" title="Улети в Чехию!"></div>
+            <div class="tooltip point" id="point4" title="Будь счастлив!"></div>
+            <div class="tooltip point" id="point5" title="Не возвращайся!"></div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+<!--path -> d -> A rx, ry, x-axis-rotation, large-arc-flag, sweep-flag, x, y -->

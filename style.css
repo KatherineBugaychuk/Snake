@@ -1,0 +1,76 @@
+#snake_svg {
+    width: 900px;
+    height: 500px;
+
+
+}
+
+#snake {
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    height: 600px;
+    top: 150px;
+    left: 150px;
+}
+
+#path {
+    position: absolute;
+}
+
+#points {
+    position: absolute;
+}
+
+.point {
+    height: 55px;
+    width: 55px;
+    position: absolute;
+    border-radius: 30px;
+}
+
+#point1 {
+    background: #005480;
+    top: 20px;
+    left: 190px;
+}
+
+#point2 {
+    background: #045d85;
+    top: 20px;
+    left: 400px;
+}
+
+#point3 {
+    background: #09688b;
+    top: 20px;
+    left: 600px;
+}
+
+#point4 {
+    background: #3d7cb6;
+    top: 220px;
+    left: 560px;
+}
+
+#point5 {
+    background: #3d7cb6;
+    top: 220px;
+    left: 365px;
+}
+
+.img_boy {
+    position: absolute;
+    display: block;
+    z-index: -1;
+}
+
+#img1 {
+    top: -50px;
+    left: -120px;
+}
+
+#img2 {
+    left: 78px;
+    top: 160px;
+}
